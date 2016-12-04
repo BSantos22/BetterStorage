@@ -236,7 +236,15 @@ Apesar da *developer* principal, [copygirl](http://github.com/copygirl), ter exp
 
 Assim, seguimos os passos que a mesma indicou, tendo implementando uma verificação que caso **compound** seja *null* o programa faz um *return* vazio, evitando que este termine abruptamente quando se coloca um presente por cima de um outro presente.
 
-Para além desta resolução, o grupo tentou também corrigir outros potenciais problemas, apontados pelo [codacy](https://www.codacy.com/app/saracouto1318/BetterStorage/dashboard), de forma a que fosse minimizado o risco de ocorrência de possíveis *bugs* futuros.
+<p align="center">
+  <img src="https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/bugFixed.png">
+</p>
+
+<p align="center">
+  Figura 7 - Resolução do grupo escolhido
+</p>
+
+Para além desta resolução, o grupo tentou também corrigir outros potenciais problemas, apontados pelo [codacy](https://www.codacy.com/app/saracouto1318/BetterStorage/issues?&filters=W3siaWQiOiJDYXRlZ29yeSIsInZhbHVlcyI6WyJFcnJvciBQcm9uZSJdfV0=), de forma a que fosse minimizado o risco de ocorrência de possíveis *bugs* futuros.
 
 <a name="pull">
 ### *Pull Request*
@@ -250,7 +258,7 @@ Após se ter tentado resolver o problema, foi executado um [*pull request*](http
 </p>
 
 <p align="center">
-  Figura 7 - Pull request executado pelo grupo
+  Figura 8 - Pull request executado pelo grupo
 </p>
 
 
