@@ -7,7 +7,7 @@
 
 1. [Introdução](#introduction)
 2. [Grau de Testabilidade](#testability)
-  1. [Contrabilidade](#controllability)
+  1. [Controlabilidade](#controllability)
   2. [Observabilidade](#observability)
   3. [Isolabilidade](#isolateability)
   4. [Separação de Preocupações](#preocupations)
@@ -84,7 +84,7 @@ O **grau de testabilidade**, como é indicado, é dividido em diferentes secçõ
 
 
 <a name="controllability">
-### Contrabilidade
+### Controlabilidade
 
 
 A **controlabilidade** é a fase onde é possível controlar o estado do componente que irá ser testado (***CUT -*** *Component Under Test*) em conformidade com o teste respetivo.
