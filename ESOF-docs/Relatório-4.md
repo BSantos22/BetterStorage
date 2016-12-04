@@ -232,6 +232,12 @@ Mesmo havendo uma explicação bastante sucinta e esclarecedora, o *bug* não ch
 ### Resolução do *bug*
 
 
+Apesar da *developer* principal, [copygirl](http://github.com/copygirl), ter explicado bastante bem quais as possibilidades de código que poderiam estar a causar aquele *bug*, o grupo não consegiu descobrir a sua origem exatamente.
+
+Assim, seguimos os passos que a mesma indicou, tendo implementando uma verificação que caso **compound** seja *null* o programa faz um *return* vazio, evitando que este termine abruptamente quando se coloca um presente por cima de um presente já existente.
+
+Para além desta resolução, o grupo tentou também corrigir outros potenciais problemas, apontados pelo [codacy](https://www.codacy.com/app/saracouto1318/BetterStorage/dashboard), de forma a que fosse minimizado o risco de ocorrência de possíveis *bugs* futuros.
+
 <a name="pull">
 ### *Pull Request*
 
