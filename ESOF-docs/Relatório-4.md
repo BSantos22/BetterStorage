@@ -216,7 +216,7 @@ O ***bug*** selecionado pelo grupo estava presente na lista de [*issues*](https:
 </p>
 
 
-Como a própria descrição do ***bug***, assinalado a cima, indicada este recaía no facto de quando se colocava um presente por cima de um outro já existente, o presente superior era destruído, terminando o programa com um [relatório de erros](http://pastebin.com/JVxtDXhV).
+Como a própria descrição do ***bug***, assinalado a cima, indicava este recaía no facto de quando se colocava um presente por cima de um outro e se destruia o presente superior, o programa terminava com um [relatório de erros](http://pastebin.com/JVxtDXhV).
 
 A *developer* principal do projeto, [copygirl](http://github.com/copygirl), rapidamente colocou uma explicação para a ocorrência do mesmo, aproveitando para referir os locais no código desenvolvido onde poderiam estar as ocorrências que estariam a provocar tal problema. A explicação dada pela [copygirl](http://github.com/copygirl) é citada de seguida:
 
@@ -234,7 +234,7 @@ Mesmo havendo uma explicação bastante sucinta e esclarecedora, o *bug* não ch
 
 Apesar da *developer* principal, [copygirl](http://github.com/copygirl), ter explicado bastante bem quais as possibilidades de código que poderiam estar a causar aquele *bug*, o grupo não consegiu descobrir a sua origem exatamente.
 
-Assim, seguimos os passos que a mesma indicou, tendo implementando uma verificação que caso **compound** seja *null* o programa faz um *return* vazio, evitando que este termine abruptamente quando se coloca um presente por cima de um presente já existente.
+Assim, seguimos os passos que a mesma indicou, tendo implementando uma verificação que caso **compound** seja *null* o programa faz um *return* vazio, evitando que este termine abruptamente quando se coloca um presente por cima de um outro presente.
 
 Para além desta resolução, o grupo tentou também corrigir outros potenciais problemas, apontados pelo [codacy](https://www.codacy.com/app/saracouto1318/BetterStorage/dashboard), de forma a que fosse minimizado o risco de ocorrência de possíveis *bugs* futuros.
 
