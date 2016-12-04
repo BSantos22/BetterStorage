@@ -120,7 +120,7 @@ O nosso projeto, **BetterStorage**, não tem testes unitários o que torna difí
 
 **Separação de preocupações**  é a fase em que o componente a ser testado tem responsabilidade única, clara e objetiva.
 
-A separação de preocupações / responsabilidades entre módulos, no **BetterStorage** está muito bem definida, como já foi referido no [relatório anterior](https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/Relatório-3.md). Os responsáveis pelo **BetterStorage* optaram por dividir o código por diferentes *packages*, tentando estruturar o mesmo de forma simples, tentando evitar que haja repetição ou criação de código sem qualquer utilidade. Consuante a importância e a complexidade de cada fragmento de código, maior ou mais complexo será o *package* que o contém.
+A separação de preocupações / responsabilidades entre módulos, no **BetterStorage** está muito bem definida, como já foi referido no [relatório anterior](https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/Relatório-3.md). Os responsáveis pelo **BetterStorage* optaram por dividir o código por diferentes *packages*, tentando estruturar o mesmo de forma simples, tentando evitar que haja repetição ou criação de código sem qualquer utilidade. Consoante a importância e a complexidade de cada fragmento de código, maior ou mais complexo será o *package* que o contém.
 
 Assim, verifica-se que este projeto tem uma boa **separação de preocupações**, o que faria com que cada componente fosse testado com um certo intuito, caso existissem testes unitários no **BetterStorage**.
 
@@ -138,6 +138,16 @@ Isto torna muito complicada a perceção e compreensão do código por parte de 
 
 <a name="heterogeinidade">
 ### Heterogeneidade
+
+A **heterogeneidade** é o grau de necessidade do sofware de usar diferentes métodos e ferramentas de teste, devido ao uso de recursos externos.
+
+Como anteriormente referido o **BetterStorage** recorre ao [**Minecraft Forge**](https://files.minecraftforge.net/) para a sua integração no *Minecraft*. Faz também uso de módulos de outros *mods* para garantir a sua compatibilidade, e de bibliotecas de **OpenGL** para fazer *render* das entidades implementadas.
+
+A dependência das classes do *mod* no **Minecraft** e no **Forge** introduzem a necessidade da criação de objectos *mock* para estas dependências. Objectos *mock* são objetos "falsos" que simulam o comportamento de uma classe ou objeto "real" para que o teste se possa focar na unidade a ser testada.
+
+A criação de objectos *mock* para as classes do **Minecraft** e do **Forge** é um processo um pouco complexo, devido à sua estrutura, sendo provavelmente esta a razão pela qual o projecto não faz recurso a testes unitários.
+
+
 
 <a name="statistics">
 ## Estatísticas de Teste
@@ -280,6 +290,10 @@ Como o [*pull request*](https://github.com/copygirl/BetterStorage/pull/319) foi 
      - http://www.lbd.dcc.ufmg.br/colecoes/ihc/2000/0002.pdf
       
      - https://moodle.up.pt/pluginfile.php/84648/mod_resource/content/1/ESOF-VV.pdf
+     
+     - https://pt.wikipedia.org/wiki/Objeto_Mock
+     
+     - http://jabelarminecraft.blogspot.pt/p/quick-tips-eclipse.html
       
   
   - **Codacy**: https://www.codacy.com
