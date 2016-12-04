@@ -260,7 +260,7 @@ Assim, seguimos os passos que a mesma indicou, tendo implementando uma verifica�
 </p>
 
 <p align="center">
-  Figura 7 - Resolução do grupo escolhido
+  Figura 7 - Resolução do bug escolhido
 </p>
 
 
