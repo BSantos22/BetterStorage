@@ -197,6 +197,31 @@ Um ***bug*** consiste num erro relativo ao funcionamento de um *software*, consi
 <a name="bugid">
 ### Identificação do bug a tratar
 
+
+O ***bug*** selecionado pelo grupo estava presente na lista de [*issues*](https://github.com/copygirl/BetterStorage/issues) do repositório do **BetterStorage**. Este era a *issue* número **316**, sendo uma das *issues* mais recentes no projeto, com data de **11 de junho de 2016**, tendo sido colocada por um dos contribuidores externos ao projeto, [Wasthereonce](https://github.com/Wasthereonce).
+
+
+<p align="center">
+  <img src="https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/bug.png">
+</p>
+
+<p align="center">
+  Figura 6 - Bug escolhido pelo grupo
+</p>
+
+
+Como a própria descrição do ***bug***, assinalado a cima, indicada este recaía no facto de quando se colocava um presente por cima de um outro já existente, o presente superior era destruído, terminando o programa com um [relatório de erros](http://pastebin.com/JVxtDXhV).
+
+A *developer* principal do projeto, [copygirl](http://github.com/copygirl), rapidamente colocou uma explicação para a ocorrência do mesmo, aproveitando para referir os locais no código desenvolvido onde poderiam estar as ocorrências que estariam a provocar tal problema. A explicação dada pela [copygirl](http://github.com/copygirl) é citada de seguida:
+
+> Probably something with these [this](https://github.com/copygirl/BetterStorage/blob/master/src/main/java/net/mcft/copy/betterstorage/tile/entity/TileEntityCardboardBox.java#L29) and [that](https://github.com/copygirl/BetterStorage/blob/master/src/main/java/net/mcft/copy/betterstorage/tile/entity/TileEntityPresent.java#L51). If none of the three **if**s run, there won't be an NBT tag on the dropped item, causing **compound** to be null.
+> Since I'm not touching modding anymore, I can't fix this.
+> Can be avoided by setting **cardboardBoxUses** to something greater than **0**.
+
+
+Mesmo havendo uma explicação bastante sucinta e esclarecedora, o *bug* não chegou a ser resolvido na altura, tendo sido agora resolvido pelo grupo.
+
+
 <a name="bugres">
 ### Resolução do bug
 
