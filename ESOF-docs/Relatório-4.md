@@ -30,7 +30,7 @@
 
 Este relatório irá-se focar na **verificação** e **validação** do *software* desenvolvido no projeto **BetterStorage**.
 
-O processo de **verificação** e **validação** permite confirmar que o *software* desenvolvido cumpre com todas as especificações e ideais que o próprio cliente requeriu. Estes dois componentes interligam-se, como se pode ver de seguida:
+O processo de **verificação** e **validação** permite confirmar se o *software* desenvolvido cumpre com todas as especificações e ideais que o próprio cliente requeriu. Estes dois componentes interligam-se, como se pode ver de seguida:
 
 
 <p align="center">
@@ -56,23 +56,23 @@ Já o componente de **validação** tenta garantir, através de testes, que o pr
 </p>
 
 
-O **BetterStorage**, por ser um projeto "livre" onde qualquer um pode ser um contribuidor, podendo participar no desenvolvimento do mesmo, sofre de alguns problemas de testabilidade. Este não contém um módulo relativo a testes, uma vez que tanto a *developer* principal, [copygirl](http://github.com/copygirl) como os restantes contribuidores preferiram criar código e testá-lo manualmente, jogando o jogo *Minecraft*, verificando aí a possível existência de erros.
+O **BetterStorage**, por ser um projeto "livre" onde qualquer um pode ser um contribuidor, podendo participar no desenvolvimento do mesmo, sofre de alguns problemas de testabilidade. Este não contem um módulo relativo a testes, uma vez que tanto a *developer* principal, [copygirl](http://github.com/copygirl) como os restantes contribuidores preferiram criar código e testá-lo manualmente, jogando o jogo *Minecraft*, verificando aí a possível existência de erros.
 
 Apesar de não existirem testes no **BetterStorage**, decidimos supôr como seriam os resultados obtidos em relação ao *grau de testabilidade* e às suas respetivas secções.
 
 Neste relatório, portanto,  explorar-se-á o **grau de testabilidade** do *software*, analisando a **controlabilidade** dos componentes, a **observabilidade** e **isolabilidade** dos mesmos, assim como o **grau de separação de preocupações**, de **percetibilidade** e **heterogeneidade** das tecnologias utilizadas.
 
 Para além disso, vão ser ainda apresentadas algumas estatísticas pertinentes, relacionadas com a verificação e validação do *software*.
-Por fim, será apresentado o *bug* selecionado pelo grupo, para ser resolvido, assim como todos os passos efetuados para a sua resolução.
+Por fim, será apresentado o ***bug*** selecionado pelo grupo, para ser resolvido, assim como todos os passos efetuados para a sua resolução.
 
 
 <a name="testability">
 ## Grau de Testabilidade
 
 
-A análise referente ao **grau de testabilidade** de um projeto é bastante importante, visto que assim é verificado se os testes têm uma complexidade que permite que todos os componentes envolvidos no *software* sejam testados. Caso o **grau de testabilidade** de um componente seja elevado, significa que é mais fácil encontrar *bugs* no mesmo, podendo-os corrigir com maior facilidade.
+A análise referente ao **grau de testabilidade** de um projeto é bastante importante, visto que assim é verificado se os testes têm uma complexidade que permite que todos os componentes envolvidos no *software* sejam testados. Caso o **grau de testabilidade** de um componente seja elevado, significa que é mais fácil encontrar ***bugs*** no mesmo, podendo-os corrigir com maior facilidade.
 
-O **BetterStorage**, como já referido, não contém nenhum tipo de testes, o que faz com que uma vez que o grupo está a supôr certos resultados que poderiam ocorrer caso existisse um  módulo de testes, não se possa analisar o **grau de testabilidade** do projeto de forma concreta e 100% correta. Para tal, iremos identificar e explicar o que ocorre em cada secção do **grau de testabilidade**, referindo o que devia de acontecer caso o **BetterStorage** tivesse testes unitários.
+O **BetterStorage**, como já referido, não contem nenhum tipo de testes, o que faz com que uma vez que o grupo está a supôr certos resultados que poderiam ocorrer caso existisse um  módulo de testes, não se possa analisar o **grau de testabilidade** do projeto de forma concreta e 100% correta. Para tal, iremos identificar e explicar o que ocorre em cada secção do **grau de testabilidade**, referindo o que devia de acontecer caso o **BetterStorage** tivesse testes unitários.
 
 O **grau de testabilidade**, como é indicado, é dividido em diferentes secções, como:
 - Controlabilidade
@@ -87,7 +87,7 @@ O **grau de testabilidade**, como é indicado, é dividido em diferentes secçõ
 ### Contrabilidade
 
 
-A **controlabilidade** é a fase onde é possível controlar o estado do componente que irá ser testado (*CUT - Component Under Test*) em conformidade com o teste respetivo.
+A **controlabilidade** é a fase onde é possível controlar o estado do componente que irá ser testado (***CUT -*** *Component Under Test*) em conformidade com o teste respetivo.
 
 Uma vez que o **BetterStorage** não contém testes unitários, não podemos falar com exatidão sobre os módulos existentes e como estes se comportariam ao serem testados. 
 
@@ -106,7 +106,7 @@ A **observabilidade** é a capacidade de ao analisar os resultados dos testes, c
 
 Uma vez que o **BetterStorage** não contém testes, torna-se difícil analisar a sua **observabilidade**, pois esta depende também da técnica usada para implementar os testes.
 
-No entanto, caso se implementassem testes unitários seria útil ter informações sobre *Code Coverage* (tamanho da cobertura dos testes), *Find Bugs* (zonas do código que podem originar bugs), e *Check Style* (se usa sempre o mesmo estilo de código em todo o sítio). Principalmente, com estes 3 tipos de testes, a **observabilidade** seria muito boa e de fácil interpretação pois os resultados dos testes, assim divididos, permitiriam uma melhor perceção das falhas do código. Os 2 últimos tópicos, *Find Bugs* e *Check Style*, são falados mais à frente neste relatório, na secção relativa às [estatísticas de teste](#statistics).
+No entanto, caso se implementassem testes unitários seria útil ter informações sobre *Code Coverage* (tamanho da cobertura dos testes), *Find Bugs* (zonas do código que podem originar bugs), e *Check Style* (se usa sempre o mesmo estilo de código). Principalmente, com estes 3 tipos de testes, a **observabilidade** seria muito boa e de fácil interpretação pois os resultados dos testes, assim divididos, permitiriam uma melhor perceção das falhas do código. Os 2 últimos tópicos, *Find Bugs* e *Check Style*, são falados mais à frente neste relatório, na secção relativa às [estatísticas de teste](#statistics).
 
 
 <a name="isolateability">
@@ -254,6 +254,7 @@ Apesar da *developer* principal, [copygirl](http://github.com/copygirl), ter exp
 
 Assim, seguimos os passos que a mesma indicou, tendo implementando uma verificação que caso **compound** seja *null* o programa faz um *return* vazio, evitando que este termine abruptamente quando se coloca um presente por cima de um outro presente.
 
+
 <p align="center">
   <img src="https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/bugFixed.png">
 </p>
@@ -261,6 +262,7 @@ Assim, seguimos os passos que a mesma indicou, tendo implementando uma verifica�
 <p align="center">
   Figura 7 - Resolução do grupo escolhido
 </p>
+
 
 Para além desta resolução, o grupo tentou também corrigir outros potenciais problemas, apontados pelo [codacy](https://www.codacy.com/app/saracouto1318/BetterStorage/issues?&filters=W3siaWQiOiJDYXRlZ29yeSIsInZhbHVlcyI6WyJFcnJvciBQcm9uZSJdfV0=), de forma a que fosse minimizado o risco de ocorrência de possíveis ***bugs*** futuros.
 
@@ -288,11 +290,11 @@ Como o [*pull request*](https://github.com/copygirl/BetterStorage/pull/319) foi 
 ## Conclusão
 
 
-Concluindo, é de notar a falta de testes no **BetterStorage**, problema esse que se deve à natureza "livre" deste projecto. Além disso, a falta de documentação do código por parte dos *developers*, torna a criação de testes nesta altura do desenvolvimento bastante complicada.
+Concluindo, é de notar a falta de testes no **BetterStorage**, problema esse que se deve à natureza "livre" deste projecto. Além disso, a falta de documentação do código por parte dos *developers*, torna a criação de testes nesta altura de desenvolvimento bastante complicada.
 
-Somos da opinião que a implementação de testes traria bastantes benefícios ao projecto, particularmente à identificação das causas dos seus vários [problemas](https://github.com/copygirl/BetterStorage/issues) e o surgimento de *bugs* ainda não detectados.
+Somos da opinião que a implementação de testes traria bastantes benefícios ao projecto, particularmente à identificação das causas dos seus vários [problemas](https://github.com/copygirl/BetterStorage/issues) e o surgimento de ***bugs*** ainda não detectados.
 
-Quanto ao *bug* a resolver, foram seguidas as indicações da *developer*, tendo este sido tratado.
+Quanto ao ***bug*** a resolver, foram seguidas as indicações da *developer*, tendo este sido tratado.
 
 
 <a name="links">
