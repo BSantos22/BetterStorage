@@ -100,7 +100,7 @@ Podemos, assim, afirmar que quanto maior for a profundidade do componente, em re
 
 A **observabilidade** é a capacidade de analisando os resultados dos testes, conseguir interpretar os testes e perceber a origem de diversas falhas possíveis.
 
-Uma vez que o **Better Storage** não contém testes, torna-se difícil analisar a **observabilidade** que teriam os mesmos, pois esta depende também da técnica usada para implementar os testes.
+Uma vez que o **BetterStorage** não contém testes, torna-se difícil analisar a **observabilidade** que teriam os mesmos, pois esta depende também da técnica usada para implementar os testes.
 
 No entanto, caso se implementassem testes unitários seria útil ter informações sobre *Code Coverage* (tamanho da cobertura dos testes), *FindBugs* (zonas do código que pode originar bugs), e *Checkstyle* (se usa sempre o mesmo estilo de código em todo o sítio). Principalmente, com estes 3 tipos de testes, a **observabilidade** seria muito boa e de fácil interpretação pois os resultados dos testes, assim divididos, permitiriam uma melhor perceção das falhas do código.
 
@@ -108,9 +108,9 @@ No entanto, caso se implementassem testes unitários seria útil ter informaçõ
 <a name="isolateability">
 ### Isolabilidade
 
-Ao falar em **isolabilidade** de um componente, estamos a falar da forma como este pode ser testado de forma isolada, dependendo, contudo, da forma que ele se relaciona com outros módulos ou da sua relação com os mesmos. Resumidamente, é a capacidade de testarmos fragmentos do código que em caso de falha nos permitem identificar logo o problema. Um código onde haja muitas dependências de um módulo por outro, será mais difícil de testar, uma vez que, testando um dos módulos ele pode estar a falhar por caso do outro módulo ter algo errado, e estar, inteiramente correto o código do próprio modulo.
+Ao falar em **isolabilidade** de um componente, estamos a falar da forma como este pode ser testado de forma isolada, dependendo, contudo, da forma que ele se relaciona com outros módulos ou da sua relação com os mesmos. Resumidamente, é a capacidade de testarmos fragmentos do código que em caso de falha nos permitem identificar logo o problema. Um código onde haja muitas dependências de um módulo por outro, será mais difícil de testar, uma vez que, testando um dos módulos ele pode estar a falhar por caso do outro módulo ter algo errado, e estar, inteiramente correto o código do próprio modulo. Assim,  podemos afirmar que, a *isolabilidade* de módulos secundários seria maior que a isolabilidade dos módulos princiapais, pois os módulos principais dependem de mais funções auxiliares do que os secúndarios, sendo mais difíceis de isolar.
 
-O nosso projeto, **Better Storage**, não tem testes unitários o que torna difícil abordar a **isolabilidade** do mesmo. Deste modo, determinar um grau geral de **isolabilidade** do código torna-se impossível, sabendo apenas que esta está relacionada com a **controlabilidade** do código, pois este se relaciona também com estado do componente a ser testado.
+O nosso projeto, **BetterStorage**, não tem testes unitários o que torna difícil abordar a **isolabilidade** do mesmo. Deste modo, determinar um grau geral de **isolabilidade** do código torna-se impossível, sabendo apenas que esta está relacionada com a **controlabilidade** do código, pois este se relaciona também com estado do componente a ser testado.
 
 
 <a name="preocupations">
