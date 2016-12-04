@@ -10,7 +10,7 @@
   1. [Contrabilidade](#controllability)
   2. [Observabilidade](#observability)
   3. [Isolabilidade](#isolateability)
-  4. [Separação de preocupações](#preocupations)
+  4. [Separação de Preocupações](#preocupations)
   5. [Percetibilidade](#understand)
   6. [Heterogeneidade](#heterogeneidade)
 3. [Estatísticas de Teste](#statistics)
@@ -70,7 +70,7 @@ Por fim, será apresentado o *bug* selecionado pelo grupo, para ser resolvido, a
 ## Grau de Testabilidade
 
 
-A análise referente ao **grau de testabilidade** de um projeto é bastante importante, visto que assim é verificado se os testes têm uma complexidade que permite que todos os componentes envolvidos no *software* sejam testados. Caso o **grau de testabilidade** de um componente seja elevado, significa que é mais fácil encontrar *bugs* no mesmo, podendo-os corrigir com maior facilidade, igualmente.
+A análise referente ao **grau de testabilidade** de um projeto é bastante importante, visto que assim é verificado se os testes têm uma complexidade que permite que todos os componentes envolvidos no *software* sejam testados. Caso o **grau de testabilidade** de um componente seja elevado, significa que é mais fácil encontrar *bugs* no mesmo, podendo-os corrigir com maior facilidade.
 
 O **BetterStorage**, como já referido, não contém nenhum tipo de testes, o que faz com que uma vez que o grupo está a supôr certos resultados que poderiam ocorrer caso existisse um  módulo de testes, não se possa analisar o **grau de testabilidade** do projeto de forma concreta e 100% correta. Para tal, iremos identificar e explicar o que ocorre em cada secção do **grau de testabilidade**, referindo o que devia de acontecer caso o **BetterStorage** tivesse testes unitários.
 
@@ -89,7 +89,7 @@ O **grau de testabilidade**, como é indicado, é dividido em diferentes secçõ
 
 A **controlabilidade** é a fase onde é possível controlar o estado do componente que irá ser testado (*CUT - Component Under Test*) em conformidade com o teste respetivo.
 
-Uma vez que o **BetterStorage** não contém testes unitários, não podemos falar concretamente dos módulos existentes e como estes se comportariam ao serem testados. 
+Uma vez que o **BetterStorage** não contém testes unitários, não podemos falar com exatidão sobre os módulos existentes e como estes se comportariam ao serem testados. 
 
 Caso este projeto tivesse testes unitários, provavelmente, a **controlabilidade** dos componentes dos módulos "principais" do **BetterStorge** seria reduzida, uma vez que estes dependem de outros módulos. Já a **controlabilidade** dos componentes dos módulos "secundários" seria maior, visto que a maior parte deles interage com outros componentes do mesmo módulo.
 
@@ -102,7 +102,7 @@ Podemos, assim, afirmar que quanto maior for a profundidade do componente, em re
 ### Observabilidade
 
 
-A **observabilidade** é a capacidade ao analisar os resultados dos testes, conseguir interpretar os mesmos e perceber a origem de diversas falhas possíveis.
+A **observabilidade** é a capacidade de ao analisar os resultados dos testes, conseguir interpretar os mesmos e perceber a origem de diversas falhas possíveis.
 
 Uma vez que o **BetterStorage** não contém testes, torna-se difícil analisar a sua **observabilidade**, pois esta depende também da técnica usada para implementar os testes.
 
@@ -119,7 +119,7 @@ Um código onde haja muitas dependências de um módulo relativamente a outro, s
 
 Assim,  podemos afirmar que, a **isolabilidade** de módulos "secundários" seria maior que a **isolabilidade** dos módulos "principais", pois os módulos "principais" dependem de mais funções auxiliares do que os "secundários", sendo mais difíceis de isolar.
 
-O nosso projeto, **BetterStorage**, não tendo testes unitários torna difícil a abordagem relativa à **isolabilidade** do mesmo. Deste modo, determinar um grau geral de **isolabilidade** do código torna-se impossível, sabendo apenas que este está relacionado com a **controlabilidade** do código, visto que se relaciona, igualmente, com o estado do componente a ser testado.
+O nosso projeto, **BetterStorage**, não tendo testes unitários, torna difícil a abordagem relativa à **isolabilidade** do mesmo. Deste modo, determinar um grau geral de **isolabilidade** do código torna-se impossível, sabendo apenas que este está relacionado com a **controlabilidade** do mesmo, visto que se relaciona, igualmente, com o estado do componente a ser testado.
 
 
 <a name="preocupations">
@@ -148,11 +148,11 @@ Isto torna muito complicada a perceção e compreensão do código por parte de 
 ### Heterogeneidade
 
 
-A **heterogeneidade** é o grau de necessidade do sofware de usar diferentes métodos e ferramentas de teste, devido ao uso de recursos externos.
+A **heterogeneidade** é o grau de necessidade do *sofware* de usar diferentes métodos e ferramentas de teste, devido ao uso de recursos externos.
 
-Como anteriormente referido, em outros relatórios, o **BetterStorage** recorre ao [**Minecraft Forge**](https://files.minecraftforge.net/) para a sua integração no *Minecraft*. Faz também uso de módulos de outros *mods*, para garantir a sua compatibilidade, e de bibliotecas de **OpenGL** para fazer *render* das entidades implementadas.
+Como anteriormente referido, em outros relatórios, o **BetterStorage** recorre ao [**Minecraft Forge**](https://files.minecraftforge.net/) para a sua integração no **Minecraft**. Faz também uso de módulos de outros *mods*, para garantir a sua compatibilidade, e de bibliotecas de **OpenGL** para fazer *render* das entidades implementadas.
 
-A dependência das classes do *mod* no **Minecraft** e no **Forge** introduzem a necessidade da criação de objectos *mock* para mesmas. Objectos *mock* são objetos "falsos" que simulam o comportamento de uma classe ou objeto "real" para que o teste se possa focar na unidade a ser testada.
+A dependência das classes do *mod* no **Minecraft** e no **Forge** introduzem a necessidade da criação de objectos *mock* para as mesmas. Objectos *mock* são objetos "falsos" que simulam o comportamento de uma classe ou objeto "real" para que o teste se possa focar na unidade a ser testada.
 
 A criação de objectos *mock* para as classes do **Minecraft** e do **Forge** é um processo um pouco complexo, devido à sua estrutura, sendo provavelmente esta a razão pela qual o projecto não faz recurso a testes unitários.
 
@@ -189,9 +189,7 @@ As ***issues*** reportadas, como se pode ver através da figura anterior, têm u
 </p>
 
 
-Em relação ao **estilo do código**, com uma percentagem de **95%**, pode-se concluir que o **BetterStorage** está implementado com um bom estilo de desenvolvimento, estilo este que se vai mantendo constante ao longo da maioria dos módulos e componentes do projeto. Os **5%** que faltam para atingir a “perfeição” referem-se a métodos vazios, disposição da inicialização de variáveis no código e a métodos com uma definição demasiado longa. 
-
-Este pequenos “erros” de estilo estão distribuídos uniformemente pelo **BetterStorage**, não havendo um módulo ou componente onde haja uma incidência mais acentuada dos mesmos, como já referido.
+Em relação ao **estilo do código**, com uma percentagem de **95%**, pode-se concluir que o **BetterStorage** está implementado com um bom estilo de desenvolvimento, estilo este que se vai mantendo constante ao longo da maioria dos módulos e componentes do projeto. Os **5%** que faltam para atingir a “perfeição” referem-se a métodos vazios, disposição da inicialização de variáveis no código e a métodos com uma definição demasiado longa. Este pequenos “erros” de estilo estão distribuídos uniformemente pelo **BetterStorage**, não havendo um módulo ou componente onde haja uma incidência mais acentuada dos mesmos, como já referido.
 
 Relativamente à **compatibilidade do código**, com uma percentagem de **100%**, unicamente se pode concluir que é um projeto perfeitamente compatível com as características da linguagem de programação utilizada (linguagem *Java*).
 
@@ -217,7 +215,7 @@ Assim, o **BetterStorage** é classificado pelo [codacy](https://www.codacy.com)
 ## *Bug*
 
 
-Um ***bug*** consiste num erro relativo ao funcionamento de um *software*, podendo causar comportamentos inesperados, sendo causados por erros no prórpio código-fonte, na maior parte das vezes.
+Um ***bug*** consiste num erro relativo ao funcionamento de um *software*, podendo causar comportamentos inesperados, sendo estes causados por erros no próprio código-fonte, na maior parte das vezes.
 
 
 <a name="bugid">
@@ -266,6 +264,7 @@ Assim, seguimos os passos que a mesma indicou, tendo implementando uma verifica�
 
 Para além desta resolução, o grupo tentou também corrigir outros potenciais problemas, apontados pelo [codacy](https://www.codacy.com/app/saracouto1318/BetterStorage/issues?&filters=W3siaWQiOiJDYXRlZ29yeSIsInZhbHVlcyI6WyJFcnJvciBQcm9uZSJdfV0=), de forma a que fosse minimizado o risco de ocorrência de possíveis ***bugs*** futuros.
 
+
 <a name="pull">
 ### *Pull Request*
 
@@ -282,18 +281,18 @@ Após se ter tentado resolver o problema, foi executado um [*pull request*](http
 </p>
 
 
-Como o [*pull request*](https://github.com/copygirl/BetterStorage/pull/319) foi executado no dia de entrega do presente relatório, o grupo ainda não obteve uma resposta em relação ao seu pedido, não sabendo ainda se a sua resolução foi será aceite.
+Como o [*pull request*](https://github.com/copygirl/BetterStorage/pull/319) foi executado no dia de entrega do presente relatório, o grupo ainda não obteve uma resposta em relação ao seu pedido, não sabendo ainda se a resolução implementada será aceite.
 
 
 <a name="conclusion">
 ## Conclusão
 
 
-Concluindo, é de notar a falta de testes no **BetterStorage**, problema esse que deve à natureza "livre" deste projecto. Além disso, a falta de documentação do código por parte dos *developers*, torna a criação de testes nesta altura do desenvolvimento bastante complicada.
+Concluindo, é de notar a falta de testes no **BetterStorage**, problema esse que se deve à natureza "livre" deste projecto. Além disso, a falta de documentação do código por parte dos *developers*, torna a criação de testes nesta altura do desenvolvimento bastante complicada.
 
-Somos da opinião que a implementação de testes traria bastantes benefícios ao projecto, particularmente a identificação das causas dos seus vários [problemas](https://github.com/copygirl/BetterStorage/issues) e o surgimento de *bugs* ainda não detectados.
+Somos da opinião que a implementação de testes traria bastantes benefícios ao projecto, particularmente à identificação das causas dos seus vários [problemas](https://github.com/copygirl/BetterStorage/issues) e o surgimento de *bugs* ainda não detectados.
 
-Quanto ao *bug* a resolver, foram seguidas as indicações da *developer* , tendo este sido evitado.
+Quanto ao *bug* a resolver, foram seguidas as indicações da *developer*, tendo este sido tratado.
 
 
 <a name="links">
@@ -322,8 +321,16 @@ Quanto ao *bug* a resolver, foram seguidas as indicações da *developer* , tend
   
   - ***Bug***: https://pt.wikipedia.org/wiki/Bug
 
+
 <a name="contribuitions">
 ## Contribuições
+
+
+  - Bruno Santos: **25%**
+  - Sara Fernandes: **25%**
+  - Vasco Pereira: **25%**
+  - Vasco Ribeiro: **25%**
+  
 
 <a name="idgrupe">
 ## Identificação do Grupo
