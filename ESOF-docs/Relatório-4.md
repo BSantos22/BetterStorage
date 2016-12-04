@@ -288,6 +288,14 @@ Como o [*pull request*](https://github.com/copygirl/BetterStorage/pull/319) foi 
 <a name="conclusion">
 ## Conclusão
 
+
+Concluindo, é de notar a falta de testes no **BetterStorage**, problema esse que deve à natureza "livre" deste projecto. Além disso, a falta de documentação do código por parte dos *developers*, torna a criação de testes nesta altura do desenvolvimento bastante complicada.
+
+Somos da opinião que a implementação de testes traria bastantes benefícios ao projecto, particularmente a identificação das causas dos seus vários [problemas](https://github.com/copygirl/BetterStorage/issues) e o surgimento de *bugs* ainda não detectados.
+
+Quanto ao *bug* a resolver, foram seguidas as indicações da *developer* , tendo este sido evitado.
+
+
 <a name="links">
 ## Links Externos
 
