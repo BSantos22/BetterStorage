@@ -14,9 +14,10 @@
   5. [Percetibilidade](#understand)
   6. [Heterogeneidade](#heterogeneidade)
 3. [Estatísticas de Teste](#statistics)
-4. [Bug](#bugs)
-  1. [Identificação do bug a tratar](#bugid)
-  2. [Resolução do bug](#bugres)
+4. [*Bug*](#bugs)
+  1. [Identificação do *bug* a tratar](#bugid)
+  2. [Resolução do *bug*](#bugres)
+  3. [*Pull Request*](#pull)
 5. [Conclusão](#conclusion)
 6. [Links Externos](#links)
 7. [Contribuições](#contribuitions)
@@ -193,14 +194,14 @@ Assim, o projeto é classificado pelo [codacy](https://www.codacy.com) como um p
 
 
 <a name="bugs">
-## Bug
+## *Bug*
 
 
 Um ***bug*** consiste num erro relativo ao funcionamento de um *software*, consistindo numa falha lógica de um programa, podendo causar comportamentos inesperados, sendo causados por erros no prórpio código-fonte, na maior parte das vezes.
 
 
 <a name="bugid">
-### Identificação do bug a tratar
+### Identificação do *bug* a tratar
 
 
 O ***bug*** selecionado pelo grupo estava presente na lista de [*issues*](https://github.com/copygirl/BetterStorage/issues) do repositório do **BetterStorage**. Este era a *issue* número **316**, sendo uma das *issues* mais recentes no projeto, com data de **11 de junho de 2016**, tendo sido colocada por um dos contribuidores externos ao projeto, [Wasthereonce](https://github.com/Wasthereonce).
@@ -228,7 +229,27 @@ Mesmo havendo uma explicação bastante sucinta e esclarecedora, o *bug* não ch
 
 
 <a name="bugres">
-### Resolução do bug
+### Resolução do *bug*
+
+
+<a name="pull">
+### *Pull Request*
+
+
+Após se ter tentado resolver o problema, foi executado um [*pull request*](https://github.com/copygirl/BetterStorage/pull/319), para que os *developers* principais do **BetterStorage** possam analisar as mudanças implementadas e caso estas sejam vantajosas para o mesmo possa ser feito *merge* do *branch* utilizado, [Bug_Fixes](https://github.com/VascoUP/BetterStorage/tree/Bug_Fixes), para corrigir o *bug* escolhido, de forma a que depois esse código faça parte do *branch* [master](https://github.com/copygirl/BetterStorage) do projeto.
+
+
+<p align="center">
+  <img src="https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/pullRequest.png">
+</p>
+
+<p align="center">
+  Figura 7 - Pull request executado pelo grupo
+</p>
+
+
+Como o [*pull request*](https://github.com/copygirl/BetterStorage/pull/319) foi executado no dia de entrega do presente relatório, o grupo ainda não obteve uma resposta em relação ao seu pedido, não sabendo ainda se a sua resolução foi será aceite.
+
 
 <a name="conclusion">
 ## Conclusão
