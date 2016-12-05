@@ -28,3 +28,5 @@ use the same amount of ```#```'s as the en_US language file or less.
 You can test your translation easily by moving it into the mod's .jar file in the
 folder ```assets/betterstorage/lang/```. Use this to make sure the tooltips look good
 with different window sizes and GUI scales.
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/VascoUP/BetterStorage)](https://bettercodehub.com)
