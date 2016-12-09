@@ -4,6 +4,7 @@ container.betterstorage.backpack=Backpack
 container.betterstorage.cardboardBox=Cardboard Box
 container.betterstorage.crate=Storage Crate
 container.betterstorage.enderBackpack=Ender Backpack
+container.betterstorage.cardboardBackpack=Cardboard Backpack
 container.betterstorage.keyring=Keyring
 container.betterstorage.locker=Locker
 container.betterstorage.lockerLarge=Large Locker
