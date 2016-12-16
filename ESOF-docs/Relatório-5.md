@@ -7,7 +7,10 @@
 ## Introdução
 
 
-## ...
+## Métricas SIG
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/VascoUP/BetterStorage)](https://bettercodehub.com)
+<img src='https://bettercodehub.com/edge/badge/VascoUP/BetterStorage'>
 
 
 ## *Feature*
