@@ -62,6 +62,15 @@ As métricas que não obtiveram aprovação recaem em:
 -	Manter as componentes arquiteturais equilibradas
 -	Testes automatizados
 
+
+
+<p align="center">
+  <img src='https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/betterCode.png'>
+</p>
+<p align="center">Figura 1 - Resultados obtidos ao analisar o projeto</p>
+
+
+
 Assim, apercebemo-nos que o **BetterStorage** por ser um projeto *openSource* necessita de ser um projeto bem organizado e com uma estrutura que permita com que os novos colaboradores possam compreender o que se passa naquele trabalho, de forma a que estes possam contribuir sempre da melhor forma possível.
 
 O **BetterStorage**, de facto, possui fragmentos pequenos de código, o que faz com que possam ser mais facilmente compreendidos, utilizados somente para uma certa finalidade, contudo estes não são desenvolvidos de forma simples.
@@ -77,7 +86,7 @@ De referir ainda, que a métrica referente aos testes automáticos não recebeu 
 <p align="center">
   <img src='https://bettercodehub.com/edge/badge/VascoUP/BetterStorage'>
 </p>
-<p align="center">Figura 1 - Badge do projeto</p>
+<p align="center">Figura 2 - Badge do projeto</p>
 
 
 
