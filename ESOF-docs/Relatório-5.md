@@ -53,7 +53,32 @@ Os pontos chave avaliados recaem sobre:
 -	Desenvolvimento de código estruturado e otimizado
 
 
-<img src='https://bettercodehub.com/edge/badge/VascoUP/BetterStorage'>
+Após analisar o código do **BetterStorage** usando o ***BetterCodeHub**, verificámos que somente **60%** das métricas de avaliação, ou seja **6** em **10** parâmetros, é que obtiveram aprovação.
+
+As métricas que não obtiveram aprovação recaem em:
+
+- Escrever porções simples de código
+- Manter as interfaces pequenas
+-	Manter as componentes arquiteturais equilibradas
+-	Testes automatizados
+
+Assim, apercebemo-nos que o **BetterStorage** por ser um projeto *openSource* necessita de ser um projeto bem organizado e com uma estrutura que permita com que os novos colaboradores possam compreender o que se passa naquele trabalho, de forma a que estes possam contribuir sempre da melhor forma possível.
+
+O **BetterStorage**, de facto, possui fragmentos pequenos de código, o que faz com que possam ser mais facilmente compreendidos, utilizados somente para uma certa finalidade, contudo estes não são desenvolvidos de forma simples.
+
+Para além disso, o **BetterStorage** está bem dividido em módulos, com um grande grau de independência, podendo-os isolar mais facilmente. Apesar disso, os componentes arquiteturais não estão equilibradas, o que faz com que haja diferente número de componentes distribuídos pelos diferentes módulos, fazendo com que seja mais complicada a localização de certas porções de código.
+
+Por fim, verificou-se que este projeto tem uma base de código pequena e código que o torna bem estruturado e otimizado, o que melhora a manutenção do mesmo, já que uma base de código menor faz com que seja menor o trabalho ao fazer mudanças estruturais.
+
+De referir ainda, que a métrica referente aos testes automáticos não recebeu aprovação, uma vez que este projeto não contém quaisquer módulos de testes, sendo impossível analisar assim tal métrica.
+
+
+
+<p align="center">
+  <img src='https://bettercodehub.com/edge/badge/VascoUP/BetterStorage'>
+</p>
+<p align="center">Figura 1 - Badge do projeto</p>
+
 
 
 <a name="feature">
@@ -99,3 +124,11 @@ Os pontos chave avaliados recaem sobre:
 
 <a name="idGrupo">
 ## Identificação do grupo
+
+
+####Grupo 05, Turma 03:
+
+   - Bruno Santos (up201402962@fe.up.pt)
+   - Sara Fernandes (up201405955@fe.up.pt)
+   - Vasco Pereira (up201403485@fe.up.pt)
+   - Vasco Ribeiro (up201402723@fe.up.pt)
