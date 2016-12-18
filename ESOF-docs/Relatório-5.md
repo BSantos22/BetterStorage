@@ -111,6 +111,11 @@ Este novo item, teve como base outro item já existente, de forma a melhor compr
 ### Implementação da *feature*
 
 
+Inicialmente foi necessário identificar os módulos que o **BetterStorage** usa para criar um item/bloco no jogo.
+De seguida, com base nos já existentes *backpack* e *enderBackpack*, criaram-se os ficheiros necessários e fizerem-se alterações ao código original para se obter um item semelhante aos anteriores.
+Depois disto, foi uma questão de mudar o aspecto gráfico da **cardboardBackpack** criada (textura e nome **in-game**), assim como modificar as suas características internas (receita de construção, número de **slots** de armazenamento...), para corresponder às nossas ideias.
+
+
 <a name="pull">
 ### *Pull Request*
 
@@ -160,9 +165,9 @@ O [*pull request*](https://github.com/copygirl/BetterStorage/pull/321) ainda nã
 
 
 - Bruno Santos: **25%**
-  - Sara Fernandes: **25%**
-  - Vasco Pereira: **25%**
-  - Vasco Ribeiro: **25%**
+- Sara Fernandes: **25%**
+- Vasco Pereira: **25%**
+- Vasco Ribeiro: **25%**
   
 
 <a name="idGrupo">
