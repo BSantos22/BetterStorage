@@ -108,6 +108,15 @@ Optámos, assim, pela que mais lógica tinha para nós, ou seja, a terceira hip�
 
 Este novo item, teve como base outros itens já existentes, o que fez com que conseguissemos compreender melhor o funcionamento da criação de novos itens no jogo *MineCraft*, em especial no nosso *mod*, **BetterStorage**. Utilizou-se, assim, o *backpack* e *enderBackpack* para criar o nosso **cardboardBackpack**, que consiste num item de armazenamento feito de cartão, com uma nova aparência, em relação aos itens já criados pelo *mod*.
 
+
+
+<p align="center">
+  <img src='https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/BackpackEquiped.png'>
+</p>
+<p align="center">Figura 3 - Item de armazenamento criado pelo grupo</p>
+
+
+
 <a name="impFeature">
 ### Implementação da *feature*
 
@@ -122,7 +131,13 @@ Toda a implementação da *feature* foi feita com alguma facilidade, uma vez que
 
 Como se pode ver de seguida, o item *cardboardBackpack* pode ser jogado como qualquer outro item do *mod* **BetterStorage**.
 
-**-> colocar imagem**
+
+
+<p align="center">
+  <img src='https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/Backpack.png'>
+</p>
+<p align="center">Figura 4 - CardboardBackpack em ambiente de jogo</p>
+
 
 
 <a name="pull">
@@ -135,7 +150,7 @@ Após termos implementado esta nova *feature* no **BetterStorage**, executámos 
 <p align="center">
   <img src='https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/pullFeature.png'>
 </p>
-<p align="center">Figura 3 - Pull request efetuado pelo grupo</p>
+<p align="center">Figura 5 - Pull request efetuado pelo grupo</p>
 
 
 No momento de escrita do presente relatório, o grupo ainda não obteve uma resposta por parte dos *developers* do **BetterStorage**.
