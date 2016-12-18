@@ -100,7 +100,9 @@ De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 ### Identificação da *feature*
 
 
-De forma a adicionar novas funcionalidades ao nosso *mod*, poderíamos ter nos direcionado em dois sentidos. Um deles seria adicionar uma completa nova funcionalidade em que pouco tivesse haver com o principal foco do *mod*, aumento da diversidade de armazenamento de itens. Outra seria adicionar algo semelhante ao já existente, mas com pequenas mudanças. Optamos, assim, pela que mais lógica faria para nós, e implementámos um novo tipo de armazenamento de itens, o **cardboardBackpack**.
+De forma a adicionar novas funcionalidades ao nosso *mod*, poderíamos ter nos direcionado em três sentidos. Um deles seria adicionar uma completa nova funcionalidade em que pouco tivesse haver com o principal foco do *mod*, aumento da diversidade de armazenamento de itens. Outra seria somente tentarmos resolver as [*issues*](https://github.com/copygirl/BetterStorage/issues) já encontradas no **BetterStorage**, ou então, poderiamos tentar adicionar algo semelhante ao já existente, mas com pequenas mudanças. 
+
+Optámos, assim, pela que mais lógica tinha para nós, ou seja, a terceira hipótese, e implementámos um novo tipo de armazenamento de itens, o **cardboardBackpack**.
 
 Este novo item, teve como base outro item já existente, de forma a melhor compreender o funcionamento da criação de novos itens no jogo *MineCraft*, em especial no nosso *mod*, **BetterStorage**. Utilizou-se, assim, o *backpack* e *enderBackpack* para criar o nosso **cardboardBackpack**, que consiste num item de armazenamento feito de cartão, com uma nova aparência, e com um número de *slots* diferentes aos já usados no *mod*, de forma aumentar a sua utilidade.
 
