@@ -108,6 +108,18 @@ De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 ### *Pull Request*
 
 
+Após termos implementado esta nova *feature* no **BetterStorage**, executámos um [*pull request*](https://github.com/copygirl/BetterStorage/pull/321), para que os *developers* principais do projeto possam analisar as mudanças implementadas e que caso achem pertinente esta nova *feature*, a possam adicionar ao *branch* [master](https://github.com/copygirl/BetterStorage), efetuando *merge* do *branch* utilizado pelo grupo, *branch* [submission](https://github.com/VascoUP/BetterStorage/tree/submission), para efetuar a *feature*.
+
+
+<p align="center">
+  <img src='https://github.com/VascoUP/BetterStorage/blob/master/ESOF-docs/resources/pullFeature.png'>
+</p>
+<p align="center">Figura 3 - Pull request efetuado pelo grupo</p>
+
+
+No momento de escrita do presente relatório, o grupo ainda não obteve uma resposta por parte dos *developers* do **BetterStorage**.
+
+
 <a name="conclusion">
 ## Conclusão e análise crítica
 
