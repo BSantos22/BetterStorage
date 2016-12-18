@@ -53,7 +53,7 @@ Os pontos chave avaliados recaem sobre:
 -	Desenvolvimento de código estruturado e otimizado
 
 
-Após analisar o código do **BetterStorage** usando o ***BetterCodeHub**, verificámos que somente **60%** das métricas de avaliação, ou seja **6** em **10** parâmetros, é que obtiveram aprovação.
+Após analisar o código do **BetterStorage** usando o ***BetterCodeHub***, verificámos que somente **60%** das métricas de avaliação, ou seja **6** em **10** parâmetros, é que obtiveram aprovação.
 
 As métricas que não obtiveram aprovação recaem em:
 
@@ -80,6 +80,10 @@ Para além disso, o **BetterStorage** está bem dividido em módulos, com um gra
 Por fim, verificou-se que este projeto tem uma base de código pequena e código que o torna bem estruturado e otimizado, o que melhora a manutenção do mesmo, já que uma base de código menor faz com que seja menor o trabalho ao fazer mudanças estruturais.
 
 De referir ainda, que a métrica referente aos testes automáticos não recebeu aprovação, uma vez que este projeto não contém quaisquer módulos de testes, sendo impossível analisar assim tal métrica.
+
+Assim, podemos concluir que apesar do **BetterStorage** só ter obtido aprovação em **6** parâmetros de avaliação, este é um projeto com uma estrutura bem organizada, apesar de ter fragmentos de código pouco simples. Para além disso, o facto de não conter testes unitários torna-o um projeto com uma avaliação "mais baixa", facto este que não deveria ocorrer, pois o **BetterStorage** deveria conter testes unitários, uma vez que facilitaria um pouco novas implementações e ajudaria na descoberta de novos *bugs*.
+
+De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 
 
 
