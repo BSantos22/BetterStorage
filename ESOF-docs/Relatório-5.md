@@ -81,8 +81,6 @@ Por fim, verificou-se que este projeto tem uma base de código pequena e código
 
 De referir ainda, que a métrica referente aos testes automáticos não recebeu aprovação, uma vez que este projeto não contém quaisquer módulos de testes, sendo impossível analisar assim tal métrica.
 
-Assim, podemos concluir que apesar do **BetterStorage** só ter obtido aprovação em **6** parâmetros de avaliação, este é um projeto com uma estrutura bem organizada, apesar de ter fragmentos de código pouco simples. Para além disso, o facto de não conter testes unitários torna-o um projeto com uma avaliação "mais baixa", facto este que não deveria ocorrer, pois o **BetterStorage** deveria conter testes unitários, uma vez que facilitaria um pouco novas implementações e ajudaria na descoberta de novos *bugs*.
-
 De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 
 
@@ -112,6 +110,9 @@ De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 
 <a name="conclusion">
 ## Conclusão e análise crítica
+
+
+Com a análise dos resultados obtidos através do **BetterCodeHub**, podemos concluir que apesar do **BetterStorage** só ter obtido aprovação em **6** parâmetros de avaliação, este é um projeto com uma estrutura bem organizada, apesar de ter fragmentos de código pouco simples. Para além disso, o facto de não conter testes unitários torna-o um projeto com uma avaliação "mais baixa", facto este que ocorre devia à natureza "livre" do projeto, apesar que a falta de testes acaba por dificultar um pouco o trabalho dos contribuidores, uma vez que a existência de testes poderia detetar possíveis bugs e ajudá-los a serem solucionados.
 
 
 <a name="links">
