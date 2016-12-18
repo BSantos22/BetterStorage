@@ -53,7 +53,7 @@ Os pontos chave avaliados recaem sobre:
 -	Desenvolvimento de código estruturado e otimizado
 
 
-Após analisar o código do **BetterStorage** usando o ***BetterCodeHub***, verificámos que somente **60%** das métricas de avaliação, ou seja **6** em **10** parâmetros, é que obtiveram aprovação.
+Após analisar o código do **BetterStorage** usando o [***BetterCodeHub***]( https://bettercodehub.com/results/VascoUP/BetterStorage), verificámos que somente **60%** das métricas de avaliação, ou seja **6** em **10** parâmetros, é que obtiveram aprovação.
 
 As métricas que não obtiveram aprovação recaem em:
 
