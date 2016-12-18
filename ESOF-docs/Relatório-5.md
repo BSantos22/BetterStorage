@@ -81,7 +81,7 @@ Por fim, verificou-se que este projeto tem uma base de código pequena e código
 
 De referir ainda, que a métrica referente aos testes automáticos não recebeu aprovação, uma vez que este projeto não contém quaisquer módulos de testes, sendo impossível analisar assim tal métrica.
 
-De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
+De seguida, pode-se visualizar o *badge* atribuído ao projeto.
 
 
 
@@ -100,22 +100,27 @@ De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 ### Identificação da *feature*
 
 
-De forma a adicionar novas funcionalidades ao nosso *mod*, poderíamos ter nos direcionado em três sentidos. Um deles seria adicionar uma completa nova funcionalidade em que pouco tivesse haver com o principal foco do *mod*, aumento da diversidade de armazenamento de itens. Outra seria somente tentarmos resolver as [*issues*](https://github.com/copygirl/BetterStorage/issues) já encontradas no **BetterStorage**, ou então, poderiamos tentar adicionar algo semelhante ao já existente, mas com pequenas mudanças. 
+De forma a adicionar novas funcionalidades ao nosso *mod*, poderíamos ter-nos direcionado em três sentidos. Um deles seria adicionar uma completa nova funcionalidade que pouco tivesse haver com o principal foco do *mod*: **o aumento da diversidade de armazenamento de itens**. Outra seria somente tentarmos resolver as [*issues*](https://github.com/copygirl/BetterStorage/issues) já encontradas no **BetterStorage**, ou então, poderiamos tentar adicionar algo semelhante ao já existente, mas com pequenas mudanças. 
 
-Optámos, assim, pela que mais lógica tinha para nós, ou seja, a terceira hipótese, e implementámos um novo tipo de armazenamento de itens, o **cardboardBackpack**.
+Optámos, assim, pela que mais lógica tinha para nós, ou seja, a terceira hipótese, e assim implementámos um novo tipo de armazenamento de itens, o **cardboardBackpack**.
 
-Este novo item, teve como base outro item já existente, de forma a melhor compreender o funcionamento da criação de novos itens no jogo *MineCraft*, em especial no nosso *mod*, **BetterStorage**. Utilizou-se, assim, o *backpack* e *enderBackpack* para criar o nosso **cardboardBackpack**, que consiste num item de armazenamento feito de cartão, com uma nova aparência, e com um número de *slots* diferentes aos já usados no *mod*, de forma aumentar a sua utilidade.
-
+Este novo item, teve como base outros itens já existentes, o que fez com que conseguissemos compreender melhor o funcionamento da criação de novos itens no jogo *MineCraft*, em especial no nosso *mod*, **BetterStorage**. Utilizou-se, assim, o *backpack* e *enderBackpack* para criar o nosso **cardboardBackpack**, que consiste num item de armazenamento feito de cartão, com uma nova aparência, em relação aos itens já criados pelo *mod*.
 
 <a name="impFeature">
 ### Implementação da *feature*
 
 
-Inicialmente foi necessário identificar os módulos que o **BetterStorage** usa para criar um item/bloco no jogo.
+Inicialmente, foi necessário identificar os módulos que o **BetterStorage** usa para criar um item/bloco no jogo.
 
-De seguida, com base nos já existentes *backpack* e *enderBackpack*, criaram-se os ficheiros necessários e fizerem-se alterações ao código original para se obter um item semelhante aos anteriores.
+De seguida, com base nos itens já existentes, *backpack* e *enderBackpack*, criaram-se os ficheiros necessários e fizeram-se alterações ao código original para se obter um item semelhante aos anteriores.
 
-Depois disto, foi uma questão de mudar o aspecto gráfico da **cardboardBackpack** criada (textura e nome **in-game**), assim como modificar as suas características internas (receita de construção, número de **slots** de armazenamento...), para corresponder às nossas ideias.
+Depois disto, foi uma questão de mudar o aspecto gráfico da **cardboardBackpack** criada (textura e nome **in-game**), assim como modificar as suas características internas, como por exemplo a receita de construção, para que tudo correspondesse às nossas ideias.
+
+Toda a implementação da *feature* foi feita com alguma facilidade, uma vez que a *cardboardBackpack* se baseava em itens já existentes, tendo sido testada já em ambiente de jogo, contendo no entando dois aspetos, que o grupo não conseguiu solucionar, uma vez que não conseguimos encontrar o local no código onde poderiamos mudar tais pormenores, mas que não inviabiliza a utilização do mesmo no jogo. Um desses "problemas" recai sobre o facto da *cardboardBackpack* não ter um *icon* no inventário do *mod* e o outro "problema" é relativo ao facto do item ter no fim do seu nome uma extensão **.name**.
+
+Como se pode ver de seguida, o item *cardboardBackpack* pode ser jogado como qualquer outro item do *mod* **BetterStorage**.
+
+**-> colocar imagem**
 
 
 <a name="pull">
@@ -140,7 +145,8 @@ No momento de escrita do presente relatório, o grupo ainda não obteve uma resp
 
 Com a análise dos resultados obtidos através do **BetterCodeHub**, podemos concluir que apesar do **BetterStorage** só ter obtido aprovação em **6** parâmetros de avaliação, este é um projeto com uma estrutura bem organizada, apesar de ter fragmentos de código pouco simples. Para além disso, o facto de não conter testes unitários torna-o um projeto com uma avaliação "mais baixa", facto este que ocorre devia à natureza "livre" do projeto, apesar que a falta de testes acaba por dificultar um pouco o trabalho dos contribuidores, uma vez que a existência de testes poderia detetar possíveis bugs e ajudá-los a serem solucionados.
 
-Em relação à *feature* implementada, o grupo acha que seguiu o método usado pelos outros *developers* do **BetterStorage**, tendo criado, um novo modo de armazenamento do *mod*, podendo até desta forma haver uma nova *release* do **BetterStorage**, uma vez que este está "parado" já à bastante tempo.
+Em relação à *feature* implementada, o grupo acha que seguiu o método usado pelos outros *developers* do **BetterStorage**, tendo criado, um novo modo de armazenamento do *mod*, podendo até desta forma haver uma nova *release* do **BetterStorage**, uma vez que este está "parado" já à bastante tempo. A sua implementação foi feita de forma organizada, tendo no entando dois aspetos que ainda podem ser corrigidos, caso a *developer* principal, [copygirl](https://github.com/copygirl), ache que esses pormenores valem a pena serem mudados.
+Esses tais "problemas" já falados no tópico relativo à [implementação da *feature*](#impFeature), no entender do grupo são fruto da falta de documentação do código do projeto, pois caso o mesmo estivesse documentado, talvez conseguissemos resolver esses pormenores e assim a *feature* estaria ainda melhor.
 
 O [*pull request*](https://github.com/copygirl/BetterStorage/pull/321) ainda não foi aceite, mas visto que seguimos todas as indicações que a *developer* principal, [copygirl](https://github.com/copygirl), nos deu no início, achámos que a nossa *feature* tem grandes hipóteses de ser aceite e, posteriormente, fazer parte do projeto principal.
 
