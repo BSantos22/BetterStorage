@@ -73,7 +73,7 @@ As métricas que não obtiveram aprovação recaem em:
 
 Assim, apercebemo-nos que o **BetterStorage** por ser um projeto *openSource* necessita de ser um projeto bem organizado e com uma estrutura que permita com que os novos colaboradores possam compreender o que se passa naquele trabalho, de forma a que estes possam contribuir sempre da melhor forma possível.
 
-O **BetterStorage**, de facto, possui fragmentos pequenos de código, o que faz com que possam ser mais facilmente compreendidos, utilizados somente para uma certa finalidade, contudo estes não são desenvolvidos de forma simples.
+O **BetterStorage**, de facto, possui fragmentos pequenos de código, o que faz com que possam ser mais facilmente compreendidos, utilizados somente para uma certa finalidade. Contudo estes não são desenvolvidos de forma simples.
 
 Para além disso, o **BetterStorage** está bem dividido em módulos, com um grande grau de independência, podendo-os isolar mais facilmente, mostrando assim ter uma arquitetura sólida. Apesar disso, os componentes arquiteturais não estão equilibrados, o que faz com que haja diferente número de componentes distribuídos pelos diferentes módulos, fazendo com que seja mais complicada a localização de certas porções de código. Mesmo alterando o nível de profundidade dos componentes através do ficheiro [.bettercodehubyml](https://github.com/VascoUP/BetterStorage/blob/master/.bettercodehubyml), nível de profundidade este em que utilizámos diversos valores, não se conseguiu uma aprovação relativa ao equilíbrio dos componentes arquiteturais.
 
