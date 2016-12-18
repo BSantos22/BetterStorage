@@ -99,10 +99,10 @@ De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 <a name="idFeature">
 ### Identificação da *feature*
 
-De forma a adicionar novas funcionalidades ao nosso mod de jogo, poderíamos ter nos direcionado em dois sentidos. Um deles seria adicionar uma completa nova funcionalidade em que pouco tivesse haver com o principal foco do *mod*, aumento da diversidade de armazenamento de itens, outra seria adicionar algo semelhante ao já existente, mas com pequenas mudanças. Optamos, assim, pela que mais lógica faria para nós, e implementamos um novo tipo de armazenamento de itens, o **cardboardBackpack**.
 
-Este novo item, teve como base outro item já existente, de forma a melhor compreender o funcionamento da criação de novos itens no jogo *MineCraft*, em especial no nosso mod **BetterStorage**. Utilizou-se, assim, o *backpack* e *enderBackpack* para criar o nosso **cardboardBackPack**, que consiste num item de armazenamento feito de cartão, mudando a aparência, e com um número de *slots* diferentes aos já usados no *mod*, de forma aumentar a sua utilidade.
+De forma a adicionar novas funcionalidades ao nosso *mod*, poderíamos ter nos direcionado em dois sentidos. Um deles seria adicionar uma completa nova funcionalidade em que pouco tivesse haver com o principal foco do *mod*, aumento da diversidade de armazenamento de itens. Outra seria adicionar algo semelhante ao já existente, mas com pequenas mudanças. Optamos, assim, pela que mais lógica faria para nós, e implementámos um novo tipo de armazenamento de itens, o **cardboardBackpack**.
 
+Este novo item, teve como base outro item já existente, de forma a melhor compreender o funcionamento da criação de novos itens no jogo *MineCraft*, em especial no nosso *mod*, **BetterStorage**. Utilizou-se, assim, o *backpack* e *enderBackpack* para criar o nosso **cardboardBackpack**, que consiste num item de armazenamento feito de cartão, com uma nova aparência, e com um número de *slots* diferentes aos já usados no *mod*, de forma aumentar a sua utilidade.
 
 
 <a name="impFeature">
@@ -131,6 +131,10 @@ No momento de escrita do presente relatório, o grupo ainda não obteve uma resp
 
 Com a análise dos resultados obtidos através do **BetterCodeHub**, podemos concluir que apesar do **BetterStorage** só ter obtido aprovação em **6** parâmetros de avaliação, este é um projeto com uma estrutura bem organizada, apesar de ter fragmentos de código pouco simples. Para além disso, o facto de não conter testes unitários torna-o um projeto com uma avaliação "mais baixa", facto este que ocorre devia à natureza "livre" do projeto, apesar que a falta de testes acaba por dificultar um pouco o trabalho dos contribuidores, uma vez que a existência de testes poderia detetar possíveis bugs e ajudá-los a serem solucionados.
 
+Em relação à *feature* implementada, o grupo acha que seguiu o método usado pelos outros *developers* do **BetterStorage**, tendo criado, um novo modo de armazenamento do *mod*, podendo até desta forma haver uma nova *release* do **BetterStorage**, uma vez que este está "parado" já à bastante tempo.
+
+O [*pull request*](https://github.com/copygirl/BetterStorage/pull/321) ainda não foi aceite, mas visto que seguimos todas as indicações que a *developer* principal, [copygirl](https://github.com/copygirl), nos deu no início, achámos que a nossa *feature* tem grandes hipóteses de ser aceite e, posteriormente, fazer parte do projeto principal.
+
 
 <a name="links">
 ## Links externos
@@ -153,11 +157,18 @@ Com a análise dos resultados obtidos através do **BetterCodeHub**, podemos con
 ## Contribuições
 
 
+- Bruno Santos: **25%**
+  - Sara Fernandes: **25%**
+  - Vasco Pereira: **25%**
+  - Vasco Ribeiro: **25%**
+  
+
 <a name="idGrupo">
 ## Identificação do grupo
 
 
 ####Grupo 05, Turma 03:
+
 
    - Bruno Santos (up201402962@fe.up.pt)
    - Sara Fernandes (up201405955@fe.up.pt)
