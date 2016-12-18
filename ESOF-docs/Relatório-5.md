@@ -127,7 +127,7 @@ De seguida, com base nos itens já existentes, *backpack* e *enderBackpack*, cri
 
 Depois disto, foi uma questão de mudar o aspecto gráfico da **cardboardBackpack** criada (textura e nome **in-game**), assim como modificar as suas características internas, como por exemplo a receita de construção, para que tudo correspondesse às nossas ideias.
 
-Toda a implementação da *feature* foi feita com alguma facilidade, uma vez que a *cardboardBackpack* se baseava em itens já existentes, tendo sido testada já em ambiente de jogo, contendo no entando dois aspetos, que o grupo não conseguiu solucionar, uma vez que não conseguimos encontrar o local no código onde poderiamos mudar tais pormenores, mas que não inviabiliza a utilização do mesmo no jogo. Um desses "problemas" recai sobre o facto da *cardboardBackpack* não ter um *icon* no inventário do *mod* e o outro "problema" é relativo ao facto do item ter no fim do seu nome uma extensão **.name**.
+Toda a implementação da *feature* foi feita com alguma facilidade, uma vez que a *cardboardBackpack* se baseava em itens já existentes, tendo sido testada já em ambiente de jogo, contendo no entando dois aspetos, que o grupo não conseguiu solucionar, uma vez que não conseguimos encontrar o local no código onde poderiamos mudar tais pormenores, pormenores estes que não inviabilizam a utilização do item de armazenamento no jogo. Um desses "problemas" recai sobre o facto da *cardboardBackpack* não ter um *icon* no inventário do *mod* e o outro "problema" é relativo ao facto do item ter no fim do seu nome uma extensão **.name**.
 
 Como se pode ver de seguida, o item *cardboardBackpack* pode ser jogado como qualquer outro item do *mod* **BetterStorage**.
 
