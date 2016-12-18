@@ -41,7 +41,7 @@ Para a análise das **métricas SIG**, foi-nos proposto o uso de uma ferramenta 
 
 Os pontos chave avaliados recaem sobre:
 
-- Escrever de pequenas porções de código
+- Escrever pequenas porções de código
 - Escrever porções simples de código
 - Evitar código repetido
 - Manter as interfaces pequenas
