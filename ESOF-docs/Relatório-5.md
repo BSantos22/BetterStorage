@@ -75,7 +75,9 @@ Assim, apercebemo-nos que o **BetterStorage** por ser um projeto *openSource* ne
 
 O **BetterStorage**, de facto, possui fragmentos pequenos de código, o que faz com que possam ser mais facilmente compreendidos, utilizados somente para uma certa finalidade, contudo estes não são desenvolvidos de forma simples.
 
-Para além disso, o **BetterStorage** está bem dividido em módulos, com um grande grau de independência, podendo-os isolar mais facilmente. Apesar disso, os componentes arquiteturais não estão equilibradas, o que faz com que haja diferente número de componentes distribuídos pelos diferentes módulos, fazendo com que seja mais complicada a localização de certas porções de código.
+Para além disso, o **BetterStorage** está bem dividido em módulos, com um grande grau de independência, podendo-os isolar mais facilmente, mostrando assim ter uma arquitetura sólida. Apesar disso, os componentes arquiteturais não estão equilibrados, o que faz com que haja diferente número de componentes distribuídos pelos diferentes módulos, fazendo com que seja mais complicada a localização de certas porções de código.
+
+Ainda, verificou-se que as interfaces do projeto não são pequenas, pois diversos métodos do **BetterStorage** necessitam de muitos argumentos, o que faz com que esta avaliação esteja correta. Uma quantidade reduzida de argumentos torna a utilização das funções mais intuitiva, facilitando a manutenção dos componentes respetivos. 
 
 Por fim, verificou-se que este projeto tem uma base de código pequena e código que o torna bem estruturado e otimizado, o que melhora a manutenção do mesmo, já que uma base de código menor faz com que seja menor o trabalho ao fazer mudanças estruturais.
 
