@@ -99,6 +99,11 @@ De seguida, pode-se visaulizar o *badge* atribuído ao projeto.
 <a name="idFeature">
 ### Identificação da *feature*
 
+De forma a adicionar novas funcionalidades ao nosso mod de jogo, poderíamos ter nos direcionado em dois sentidos. Um deles seria adicionar uma completa nova funcionalidade em que pouco tivesse haver com o principal foco do *mod*, aumento da diversidade de armazenamento de itens, outra seria adicionar algo semelhante ao já existente, mas com pequenas mudanças. Optamos, assim, pela que mais lógica faria para nós, e implementamos um novo tipo de armazenamento de itens, o **cardboardBackpack**.
+
+Este novo item, teve como base outro item já existente, de forma a melhor compreender o funcionamento da criação de novos itens no jogo *MineCraft*, em especial no nosso mod **BetterStorage**. Utilizou-se, assim, o *backpack* e *enderBackpack* para criar o nosso **cardboardBackPack**, que consiste num item de armazenamento feito de cartão, mudando a aparência, e com um número de *slots* diferentes aos já usados no *mod*, de forma aumentar a sua utilidade.
+
+
 
 <a name="impFeature">
 ### Implementação da *feature*
